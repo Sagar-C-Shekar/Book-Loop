@@ -64,55 +64,6 @@ A full-stack MERN application where users can list, browse, and exchange books w
 
 ---
 
-## 📦 Project Structure
-
-```
-bookloop/
-├── server/
-│   ├── index.js              # Express + Socket.IO server
-│   ├── models/
-│   │   ├── User.js
-│   │   ├── Book.js
-│   │   ├── Exchange.js
-│   │   ├── Credit.js
-│   │   └── Conversation.js
-│   ├── routes/
-│   │   ├── auth.js
-│   │   ├── books.js
-│   │   ├── exchanges.js
-│   │   ├── users.js
-│   │   ├── leaderboard.js
-│   │   ├── credits.js
-│   │   ├── notifications.js
-│   │   ├── reviews.js
-│   │   └── chat.js
-│   ├── middleware/
-│   │   ├── auth.js           # JWT verification
-│   │   └── upload.js         # Multer image uploads
-│   └── uploads/              # Stored book images
-└── client/
-    ├── public/index.html
-    └── src/
-        ├── App.js
-        ├── index.js / index.css
-        ├── context/AuthContext.js
-        ├── components/
-        │   ├── layout/Navbar.js, Footer.js
-        │   └── books/BookCard.js
-        └── pages/
-            ├── HomePage.js
-            ├── LoginPage.js / RegisterPage.js
-            ├── BookDetailPage.js
-            ├── AddBookPage.js / EditBookPage.js
-            ├── DashboardPage.js
-            ├── ExchangesPage.js / ExchangeDetailPage.js
-            ├── LeaderboardPage.js
-            ├── ProfilePage.js
-            ├── ChatPage.js
-            └── NotFoundPage.js
-```
-
----
 
 ## 🛠️ Setup & Installation
 
